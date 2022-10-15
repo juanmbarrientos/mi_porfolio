@@ -1,0 +1,169 @@
+
+ @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito', sans-serif;
+    color: #262626;
+}
+
+.main-general{
+    padding:0 !important;
+}
+
+.navbar{
+    background-color: #038C8C;
+}
+
+.navbar a{
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.presentacion{
+    margin-top: 55px;
+    background-color: #faeccc;
+    height: auto;
+    padding: 50px;
+}
+
+.perfil{
+    height: 280px;
+    width: 280px;
+    border-radius: 50%;
+    border: 6px solid white;
+    box-shadow: 2px 2px 4px rgb(201, 201, 201);
+    background-size: 100% 100%; 
+    background-repeat: no-repeat;  
+    background-image:url("../img/foto_perfil.png");
+}
+
+.saludo{
+    font-weight: 700;
+    font-size: 70px;
+    color: #e8bf61;
+}
+
+.nombre{
+        font-weight: 700;
+        font-size: 60px;
+}
+
+
+.img-iconos{
+    width: 30px;
+    margin: 0 20px;
+}
+
+.redes{
+    background-color:#038C8C ;
+    height: auto;
+    padding: 10px;
+    display: flex;
+    text-align: center;
+    box-shadow: 2px 2px 4px rgb(201, 201, 201);
+}
+
+
+
+.gris{
+    background-color: #e8efef;
+    /* background-color: #dbdbdb; */
+    height: auto;
+    padding: 30px 20px;
+
+}
+
+.gris_claro{
+    background-color: #fafafa;
+    /* background-color: white; */
+    height: auto;
+    padding: 30px 20px;
+}
+
+.blanco{
+    background-color: #ffffff;
+    /* background-color: white; */
+    height: auto;
+    padding: 30px 20px;
+}
+
+.titulo_categoria{
+    text-align: center;
+    font-weight: 800;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.subtitulo_categoria{
+    text-align: center;
+    font-weight: 600;
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+.subtitulo_trabajo{
+    /* text-align: center; */
+    font-weight: 600;
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+.imagenes{
+    height: 400px;
+    /* margin-bottom: 20px; */
+}
+
+.hobbys{
+    height: 300px;
+    /* margin-bottom: 20px; */
+    /* border-radius: 20px; */
+}
+
+
+.iconos{
+    height: 60px;
+    /* margin-bottom: 20px; */
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center; */
+}
+
+.contenedor_iconos{
+    text-align: center;
+}
+
+.certificados{
+    height: 100px;
+}
+
+.p_texto{
+    font-size: 20px;
+}
+
+.software{
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.contenedor_perfil, .contenedor_imagenes{
+    display: flex;
+    justify-content: end;
+}
+
+.alineacion{
+    text-align: center;
+}
+
+
+@media (min-width:396px) and (max-width:991px){
+    .contenedor_perfil, .contenedor_imagenes{
+        display: flex;
+        justify-content: center;
+    }
+}
+
