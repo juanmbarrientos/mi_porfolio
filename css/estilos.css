@@ -127,6 +127,13 @@
     font-weight: 600;
 }
 
+.p_texto_titulo{
+    text-align: center;
+    font-size: 18px;
+    background-color:#faeccc;
+    padding: 4px 0;
+}
+
 .contenedor_perfil, .contenedor_imagenes{
     display: flex;
     justify-content: end;
@@ -134,6 +141,12 @@
 
 .alineacion{
     text-align: center;
+}
+
+.mas_proyectos{
+    margin-top: 24px !important;
+    background-color: #e8efef;
+    padding: 16px;
 }
 
 
@@ -154,6 +167,10 @@
 
     .p_texto{
         margin-bottom: 5px;
+    }
+
+    .mas_proyectos{
+        margin-top: 24px !important;
     }
 }
 
