@@ -99,6 +99,16 @@
 
 .imagenes{
     height: 350px;
+    border-radius: 16px;
+}
+
+.legendaryum{
+    width: 300px;
+}
+
+.items-destacado{
+    display: flex;
+    align-items: center;
 }
 
 .hobbys{
