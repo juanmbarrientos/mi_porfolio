@@ -12,7 +12,7 @@
 }
 
 .navbar{
-    background-color: #038C8C;
+    background-color: #4abdac;
 }
 
 .navbar a{
@@ -23,7 +23,7 @@
 
 .presentacion{
     margin-top: 55px;
-    background-color: #faeccc;
+    background-color: #f7b733;
     height: auto;
     padding: 50px;
 }
@@ -42,7 +42,7 @@
 .saludo{
     font-weight: 700;
     font-size: 70px;
-    color: #e8bf61;
+    color: white;
     margin-bottom: 0;
 }
 
@@ -69,8 +69,21 @@
     font-size: 18px;
 }
 
+
+.titulo_empresa{
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.items_habilidad{
+    font-size: 12px;
+    font-weight: 600;
+    background-color: #e8efef;
+    padding: 8px;
+}
+
 .redes{
-    background-color:#038C8C ;
+    background-color:#4abdac ;
     height: auto;
     padding: 10px;
     display: flex;
