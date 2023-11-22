@@ -180,6 +180,10 @@
         justify-content: center;
     }
 
+    .contenedor_imagenes{
+        margin-bottom: 16px;
+    }
+
     .hobbys{
         margin-bottom: 30px;
     }
