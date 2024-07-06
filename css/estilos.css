@@ -12,7 +12,7 @@
 }
 
 .navbar{
-    background-color: #4abdac;
+    background-color: #F32C7D;
 }
 
 .navbar a{
@@ -23,7 +23,7 @@
 
 .presentacion{
     margin-top: 55px;
-    background-color: #f7b733;
+    background-color: #100A2C;
     height: auto;
     padding: 50px;
 }
@@ -33,7 +33,7 @@
     width: 280px;
     border-radius: 50%;
     border: 6px solid white;
-    box-shadow: 2px 2px 4px rgb(201, 201, 201);
+
     background-size: 100% 100%; 
     background-repeat: no-repeat;  
     background-image:url("../img/foto_perfil.png");
@@ -42,7 +42,7 @@
 .saludo{
     font-weight: 700;
     font-size: 70px;
-    color: white;
+    color: #F32C7D;
     margin-bottom: 0;
 }
 
@@ -51,6 +51,9 @@
         font-size: 60px;
 }
 
+.txt_presentacion{
+    color: #42BBD2;
+}
 
 .titulo_categoria{
     text-align: center;
@@ -83,12 +86,12 @@
 }
 
 .redes{
-    background-color:#4abdac ;
+    background-color:#42BBD2 ;
     height: auto;
     padding: 10px;
     display: flex;
     text-align: center;
-    box-shadow: 2px 2px 4px rgb(201, 201, 201);
+
 }
 
 .gris{
