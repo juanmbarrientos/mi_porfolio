@@ -12,7 +12,7 @@
 }
 
 .navbar{
-    background-color: #F32C7D;
+    background-color: #FF9500;
 }
 
 .navbar a{
@@ -23,7 +23,7 @@
 
 .presentacion{
     margin-top: 55px;
-    background-color: #100A2C;
+    background-color: #ECECEC;
     height: auto;
     padding: 50px;
 }
@@ -42,7 +42,7 @@
 .saludo{
     font-weight: 700;
     font-size: 70px;
-    color: #F32C7D;
+    color: #FF9500;
     margin-bottom: 0;
 }
 
@@ -52,7 +52,7 @@
 }
 
 .txt_presentacion{
-    color: #42BBD2;
+    color: #FF9500;
 }
 
 .titulo_categoria{
@@ -86,7 +86,7 @@
 }
 
 .redes{
-    background-color:#42BBD2 ;
+    background-color:#FF9500 ;
     height: auto;
     padding: 10px;
     display: flex;
