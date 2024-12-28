@@ -11,8 +11,18 @@
     padding:0 !important;
 }
 
+a{
+    text-decoration: none !important;
+}
+
 .navbar{
-    background-color: #FF9500;
+    background-color: #F3AF44;
+}
+
+.card_trabajo{
+    background-color: #f0f0f0;
+    border-radius: 16px;
+    padding: 16px;
 }
 
 .navbar a{
@@ -23,36 +33,19 @@
 
 .presentacion{
     margin-top: 55px;
-    background-color: #ECECEC;
+    background-color: #ffffff;
     height: auto;
     padding: 50px;
 }
 
 .perfil{
-    height: 280px;
-    width: 280px;
+    height: 330px;
+    width: 330px;
     border-radius: 50%;
     border: 6px solid white;
-
     background-size: 100% 100%; 
     background-repeat: no-repeat;  
-    background-image:url("../img/Foto_Perfil.png");
-}
-
-.saludo{
-    font-weight: 700;
-    font-size: 70px;
-    color: #FF9500;
-    margin-bottom: 0;
-}
-
-.nombre{
-        font-weight: 700;
-        font-size: 60px;
-}
-
-.txt_presentacion{
-    color: #FF9500;
+    background-image:url("../img/Perfil_LIND.jpg");
 }
 
 .titulo_categoria{
@@ -69,20 +62,27 @@
 }
 
 .p_texto{
-    font-size: 18px;
+    font-size: 16px;
 }
 
+.p_pais{
+    font-size: 16px;
+    margin-bottom: 4px;
+}
 
 .titulo_empresa{
     font-size: 18px;
     font-weight: 700;
+    margin-bottom: 4px;
 }
 
 .items_habilidad{
     font-size: 12px;
     font-weight: 600;
-    background-color: #e8efef;
-    padding: 8px;
+    background-color: #e8e8e8;
+    padding: 8px 16px;
+    border-radius: 4px;
+    margin-bottom: 8px;
 }
 
 .redes{
@@ -111,6 +111,55 @@
     background-color: #ffffff;
     height: auto;
     padding: 30px 20px;
+}
+
+.regular_24_300{
+    font-size: 24px;
+    font-weight: 300;
+}
+
+.bold_32_600{
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.bold_40_700{
+    font-size: 40px;
+    font-weight: 700;
+    margin: 0;
+}
+
+.btn_redes{
+    background-color: #F3AF44;
+    color: white;
+    padding: 10px 24px;
+    border-radius: 100px;
+    display: flex;
+    display: inline;
+    font-weight: 500;
+}
+
+.icons{
+    color: white;
+}
+
+.btn_redes:hover{
+    background-color: #e49c29;
+}
+
+.custom-row {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+  
+.custom-card {
+    margin-bottom: 20px;
+}
+
+.card{
+    border-radius: 8px !important;
+    background-color: #ffffff !important;
+    border: none !important;
 }
 
 .imagenes{
@@ -144,10 +193,6 @@
     margin: 0 20px;
 }
 
-.certificados{
-    height: 100px;
-}
-
 .software{
     font-size: 14px;
     font-weight: 600;
@@ -160,7 +205,12 @@
     padding: 4px 0;
 }
 
-.contenedor_perfil, .contenedor_imagenes{
+.contenedor_perfil{
+    display: flex;
+    justify-content: start;
+}
+
+.contenedor_imagenes{
     display: flex;
     justify-content: end;
 }
@@ -175,7 +225,10 @@
     padding: 16px;
 }
 
-
+.footer{
+    height: 160px;
+    background-color: #262626;
+}
 
 @media (min-width:396px) and (max-width:991px){
     .contenedor_perfil, .contenedor_imagenes{
@@ -202,5 +255,19 @@
     .mas_proyectos{
         margin-top: 24px !important;
     }
+
+    .presentacion .row {
+        display: flex;
+        flex-direction: column;
+      }
+    
+      .presentacion .col-md-6 {
+        order: 2;
+      }
+    
+      .presentacion .col-md-5 {
+        order: 1;
+        margin-bottom: 16px;
+      }
 }
 

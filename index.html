@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="css/estilos.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <title>Mi Portfolio | Juan Manuel Barrientos</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-DPN27W6X77"></script>
     <script>
@@ -26,7 +27,6 @@
 
     <nav class="navbar navbar-expand-lg navbar-light navbar fixed-top">
         <div class="container-fluid">
-          <!-- <a class="navbar-brand" href="#">Navbar</a> -->
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -59,42 +59,33 @@
 
 <main class="main-general container-fluid">
 
-    <!-- PRESENTACIÓN -->
     <section class="container-fluid presentacion" id="inicio">
         <div class="container">
             <div class="row">
-                <div class="col-12 col-md-4 contenedor_perfil">
+
+                <div class="col-md-6 offset-md-1">
+                    <h1 class="regular_24_300 mb-3">¡Hola!</h1>
+                    <h2 class="bold_40_700">soy Juan Barrientos</h2>
+                    <h3 class="bold_32_600">Diseñador de Experiencia de Usuario</h3>
+                    <h3 class="regular_24_300 mt-3">Soy Diseñador UXUI, trabajando, colaborando <br> y creando proyectos enfocados en accesibilidad <br> y usabilidad global.</h3>
+                        <div class="mt-5">
+                            <a href="" class="me-3"><span class="btn_redes regular_24_300"><i class="fa-regular fa-file me-2 icons"></i>Mi CV</span></a>
+                            <a href=""><span class="btn_redes regular_24_300"><i class="fa-brands fa-linkedin-in me-2 icons"></i>LinkedIn</span></a>
+                        </div>
+                </div>
+
+                <div class="col-md-5 contenedor_perfil">
                     <div class="perfil">
                     </div>
                 </div>
-                <div class="col-12 col-md-8">
-                    <h1 class="saludo">¡Hola!</h1>
-                    <h2 class="nombre txt_presentacion">soy Juan Barrientos</h2>
-                    <h3 class="txt_presentacion">Este es mi portfolio profesional de conocimientos y habilidades en el mundo del Diseño e IT.</h3>
-                </div>
+
             </div>
         </div>
     </section>
 
-
-    <!-- REDES SOCIALES -->
-    <section class="container-fluid redes">
-        <article class="container">
-            <div class="row">
-                <div class="col-12 text-align-center">
-                    <a href="https://www.linkedin.com/in/juanmabarrientos/" target="_blank"><img src="img/linkedin.png" alt="" class="img-iconos"></a>
-                    
-                    <a href="https://wa.me/5493413465943" target="_blank"><img src="img/whatsapp.png" alt="" class="img-iconos"></a>
-                    <!-- <a href=""><img src="img/logo_micv.png" alt="" class="img-iconos"></a> -->
-                </div>
-            </div>
-        </article>
-    </section>
-
-    <!-- Quien Soy -->
     <section class="container-fluid blanco">
         <article class="container">
-            <h2 class="titulo_categoria">Quien soy.</h2>
+            <h2 class="titulo_categoria">Un poco de mí</h2>
             <div class="row">
                 <div class="offset-md-2 col-12 col-md-8 ">
                     <p class="p_texto">Tengo 34 años, de Rosario (Sta Fe) viviendo en San Miguel de Tucumán. Busco integrarme en el ámbito profesional IT y de Diseño, aportando mis conocimientos en las diversas áreas para las cuales me he formado, y con una actitud abierta a aprender sobre las que no tengo experiencia. Soy puntual, responsable y siempre aporto ideas nuevas e innovadoras a los proyectos en los que participo. Mi experiencia en Diseño UX/UI, Diseño Gráfico y Desarrollo, son complementadas con conocimientos en Marketing Digital, Redes Sociales, Testing y Liderazgo, permitiendome agregar valor a los trabajos.</p>
@@ -103,139 +94,152 @@
         </article>
     </section>
 
-
-
     <section class="container-fluid gris_claro" id="proyecto_principal">
         <article class="container">
-            <h2 class="titulo_categoria">Trabajos en Diseño.</h2>
-
-            <div class="row items-destacado">
-                <div class="col-12 col-md-5">
+            <h2 class="titulo_categoria">Trabajos como Diseñador UX/UI.</h2>
+            <div class="row items-destacado card_trabajo offset-md-1 col-md-10">
+                <div class="col-md-4">
                     <div class="row">
-                        <div class="col-12 d-flex contenedor_imagenes">
+                        <div class="col-12 d-flex justify-content-center align-items-center contenedor_imagenes">                        
                             <img src="img/Logo_Betipo.png" class="logos-trabajos" alt="">
                         </div>
                     </div>
                 </div>
-                <div class="col-12 col-md-7 pe-5">
-                    <p class="titulo_empresa">🇪🇸 Betipo. (DISEÑADOR UX/UI)</p>
-                    <p class="items_habilidad"><B>Palabras claves:</B> DISEÑO UXUI  /  PROTOTIPOS  /  FIGMA  /  DIAGRAMA DE FLUJOS  /  USABILIDAD  /  ACCESIBILIDAD</p>
+                <div class="col-12 col-md-8 pe-5">
+                    <p class="titulo_empresa">Betipo. (DISEÑADOR UX/UI)</p>
+                    <p class="p_pais">🇪🇸 España</p>
+                    <p class="items_habilidad"><b>Keywords:</b> DISEÑO UXUI / PROTOTIPOS / FIGMA / DIAGRAMA DE FLUJOS / USABILIDAD / ACCESIBILIDAD</p>
                     <p class="p_texto">Actualmente, estoy colaborando con la startUp Española, diseñando una app que permitirá que inmobiliarias puedan gestionar y valorar de inmuebles. Además de la UX y UI que diseñe, destaco el trabajo coordinado con el PM (Product Manager) para hacer pruebas de usabilidad con potenciales clientes, utilizando el feedback como método para continuar con el desarrollo hacia el producto final. </p>
                 </div>
             </div>
 
-
-            <div class="row mt-5 items-destacado">
-                <div class="col-12 col-md-5">
+            <div class="row items-destacado card_trabajo offset-md-1 col-md-10 mt-5">
+                <div class="col-12 col-md-4">
                     <div class="row">
-                        <div class="col-12 d-flex contenedor_imagenes">
+                        <div class="col-12 d-flex justify-content-center align-items-center contenedor_imagenes">
                             <img src="img/Logo_MetaverseGaming.png" class="logos-trabajos" alt="">
                         </div>
                     </div>
                 </div>
-                <div class="col-12 col-md-7 pe-5">
-                    <p class="titulo_empresa">🇪🇸 LEGENDARYUM Metaverso & Gaming (DISEÑADOR UX/UI)</p>
-                    <p class="items_habilidad"><B>Palabras claves:</B> DISEÑO UXUI  /  PROTOTIPOS  /  FIGMA  /  DIAGRAMA DE FLUJOS  /  USABILIDAD  /  ACCESIBILIDAD</p>
+                <div class="col-12 col-md-8 pe-5">
+                    <p class="titulo_empresa">LEGENDARYUM Metaverso & Gaming (DISEÑADOR UX/UI)</p>
+                    <p class="p_pais">🇵🇹 Portugal</p>
+                    <p class="items_habilidad"><B>Keywords:</B> DISEÑO UXUI  /  PROTOTIPOS  /  FIGMA  /  DIAGRAMA DE FLUJOS  /  USABILIDAD  /  ACCESIBILIDAD</p>
                     <p class="p_texto">Actualmente ocupo el puesto de Diseñador UX/UI, creando y prototipando las versiones y mejoras que se implementarán en el sitio de la StartUp próximo al lanzamiento. En mi rol, me encuentro inmerso en la creación tanto de la App móvil como de la plataforma web (Desktop y Mobile), incluyendo la estructura de la información, el diseño diagramas de flujo y componentes, y la iteración constante de resultados de las pruebas de usabilidad por medio del prototipo de diseño en Figma.</p>
                 </div>
             </div>
 
-
-            <div class="row mt-5 items-destacado">
-                <div class="col-12 col-md-5">
+            <div class="row items-destacado card_trabajo offset-md-1 col-md-10 mt-5">
+                <div class="col-12 col-md-4">
                     <div class="row">
-                        <div class="col-12 d-flex contenedor_imagenes">
+                        <div class="col-12 d-flex justify-content-center align-items-center contenedor_imagenes">
                             <img src="img/Logo_Wallet.png" class="logos-trabajos" alt="">
                         </div>
                     </div>
                 </div>
-                <div class="col-12 col-md-7 pe-5">
-                    <p class="titulo_empresa">🇪🇸 LEGENDARYUM Wallet Cripto / NFTs (DISEÑADOR UX/UI)</p>
-                    <p class="items_habilidad"><B>Palabras claves:</B> DISEÑO UXUI  /  PROTOTIPOS  /  FIGMA  /  DIAGRAMA DE FLUJOS  /  USABILIDAD  /  ACCESIBILIDAD / WALLET / CRIPTOMONEDAS</p>
+                <div class="col-12 col-md-8 pe-5">
+                    <p class="titulo_empresa">LEGENDARYUM Wallet Cripto / NFTs (DISEÑADOR UX/UI)</p>
+                    <p class="p_pais">🇵🇹 Portugal</p>
+                    <p class="items_habilidad"><B>Keywords:</B> DISEÑO UXUI  /  PROTOTIPOS  /  FIGMA  /  DIAGRAMA DE FLUJOS  /  USABILIDAD  /  ACCESIBILIDAD / WALLET / CRIPTOMONEDAS</p>
                     <p class="p_texto">Además de la web, diseñé de la UX y, posteriormente, la UI para su wallet cripto integrada al sitio. Permitiendo a los usuarios adquirir assets (objetos) o juegos, tambien la posibilidad de enviar o recibir criptomonedas y NFTs.</p>
                     <p class="p_texto">El diseño fue adaptativo: una versión reducida con las funciones principales, y la otra completa que proporciona información con más detalle sobre las transacciones realizadas para brindar mayor seguridad.</p>
                 </div>
             </div>
 
-
-            <div class="row mt-5 items-destacado">
-                <div class="col-12 col-md-5">
+            <div class="row items-destacado card_trabajo offset-md-1 col-md-10 mt-5">
+                <div class="col-12 col-md-4">
                     <div class="row">
-                        <div class="col-12 d-flex contenedor_imagenes">
+                        <div class="col-12 d-flex justify-content-center align-items-center contenedor_imagenes">
+                            <img src="img/logo_altabarber.png" class="logos-trabajos" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-8 pe-5">
+                    <p class="titulo_empresa">Alta Barber (altabarber.cl)</p>
+                    <p class="p_pais">🇨🇱 Chile</p>
+                    <p class="items_habilidad"><B>Keywords:</B> DISEÑO UXUI  /  REDISEÑO  /  FIGMA  /  CLIENTE INDEPENDIENTE / FRONT END /</p>
+                    <p class="p_texto">Fuí contratado por el cliente de Chile que tiene 4 sucursales de peluqueria y barberia para rediseñar su sitio web haciendo foco no solo en lo visual sino también en la reducción de flujo, disminución de la carga del sitio, realzar su funcionalidad y respetar la accesibilidad y usabilidad del sitio. Este trabajo es realizado con mi compañero Lucas Lopez (Dev. Front End) quien se encargará de desarrollar el sitio diseñado en figma, brindando un servicio completo de diseño + desarrollo para el cliente. </p>
+                </div>
+            </div>
+
+            <div class="row items-destacado card_trabajo offset-md-1 col-md-10 mt-5">
+                <div class="col-12 col-md-4">
+                    <div class="row">
+                        <div class="col-12 d-flex justify-content-center align-items-center contenedor_imagenes">
                             <img src="img/Logo_PuntoIA.png" class="logos-trabajos" alt="PuntoIA Wallet">
                         </div>
                     </div>
                 </div>
-                <div class="col-12 col-md-7 pe-5">
-                    <p class="titulo_empresa">🇨🇴 PUNTOIA Wallet (DISEÑADOR UX/UI)</p>
-                    <p class="items_habilidad"><B>Palabras claves:</B> FREELANCE / DISEÑO UXUI  /  PROTOTIPOS  /  FIGMA  /  DIAGRAMA DE FLUJOS  /  USABILIDAD  /  ACCESIBILIDAD</p>
+                <div class="col-12 col-md-8 pe-5">
+                    <p class="titulo_empresa">PUNTOIA Wallet (DISEÑADOR UX/UI)</p>
+                    <p class="p_pais">🇨🇴 Colombia</p>
+                    <p class="items_habilidad"><B>Keywords:</B> FREELANCE / DISEÑO UXUI  /  PROTOTIPOS  /  FIGMA  /  DIAGRAMA DE FLUJOS  /  USABILIDAD  /  ACCESIBILIDAD</p>
                     <p class="p_texto">La startUp Colombiana PuntoIA, me contrató para diseñar su propia Wallet. Tras diversas reuniones, amplie los estudios y presenté dichos resultados, estrategias y flujos de trabajo para comenzar a diseñar. Inicé con un MVP de baja fidelidad y luego continué hasta lograr la alta fidelidad y el prototipo interactivo. Durante el proceso de diseño, realicé prueba de usabilidad con usuarios permitiendo la iteración y mejora continua. </p>
                 </div>
             </div>
-
-            <div class="row mt-5 items-destacado">
-                <div class="col-12 col-md-5">
+            <div class="row items-destacado card_trabajo offset-md-1 col-md-10 mt-5">
+                <div class="col-12 col-md-4">
                     <div class="row">
-                        <div class="col-12 d-flex contenedor_imagenes">
-                            <img src="img/tucuman_turismo.jpg" class="imagenes" alt="">
+                        <div class="col-12 d-flex justify-content-center align-items-center contenedor_imagenes">
+                            <img src="img/tucuman_turismo.png" class="imagenes" alt="">
                         </div>
                     </div>
                 </div>
-                <div class="col-12 col-md-7 pe-5">
-                    <p class="titulo_empresa">🇦🇷 tucumanturismo.com.ar (UX/UI + Desarrollo)</p>
-                    <p class="items_habilidad"><B>Palabras claves:</B> DISEÑO UXUI  /  USABILIDAD  /  ACCESIBILIDAD  /  HTML + CSS  /  JAVASCRIPT  /  API</p>
+                <div class="col-12 col-md-8 pe-5">
+                    <p class="titulo_empresa">tucumanturismo.com.ar (UX/UI + Desarrollo)</p>
+                    <p class="p_pais">🇦🇷 Argentina</p>
+                    <p class="items_habilidad"><B>Keywords:</B> DISEÑO UXUI  /  USABILIDAD  /  ACCESIBILIDAD  /  HTML + CSS  /  JAVASCRIPT  /  API</p>
                     <p class="p_texto">Es un proyecto propio para mejorar y fomentar la promoción turistica en Tucumán. Mediante diversas técnicas de research recopilé información clave para la creación. Y como resultado, diseñé y desarrollé una web optimizada para Desktop y Mobile (responsive) que ofrece información clara. Este proyecto es la combinación de mi conocimiento en diseño digital, desarrollo web y UX/UI.</p> 
-                    <!-- <a href="https://www.tucumanturismo.com.ar" target="_blank">www.tucumanturismo.com.ar</a>. -->
                 </div>
             </div>
-
-            <div class="row mt-5 items-destacado">
-                <div class="col-12 col-md-5">
+            <div class="row items-destacado card_trabajo offset-md-1 col-md-10 mt-5">
+                <div class="col-12 col-md-4">
                     <div class="row">
-                        <div class="col-12 d-flex contenedor_imagenes">
+                        <div class="col-12 d-flex justify-content-center align-items-center contenedor_imagenes">
                             <img src="img/logo_wali.png" class="logos-trabajos" alt="Wali Wallet">
                         </div>
                     </div>
                 </div>
-                <div class="col-12 col-md-7 pe-5">
-                    <p class="titulo_empresa">🇦🇷 WALI Wallet (Solo UX)</p>
-                    <p class="items_habilidad"><B>Palabras claves:</B> FREELANCE  /  DISEÑO UX  /  ENCUESTAS  /  BENCHMARKING  /  CARD SORTING  /  ARQUITECTURA DE LA INFORMACIÓN  /  DIAGRAMA DE FLUJOS  /  FIGJAM</p>
+                <div class="col-12 col-md-8 pe-5">
+                    <p class="titulo_empresa">WALI Wallet (Solo UX)</p>
+                    <p class="p_pais">🇦🇷 Argentina</p>
+                    <p class="items_habilidad"><B>Keywords:</B> FREELANCE  /  DISEÑO UX  /  ENCUESTAS  /  BENCHMARKING  /  CARD SORTING  /  ARQUITECTURA DE LA INFORMACIÓN  /  DIAGRAMA DE FLUJOS  /  FIGJAM</p>
                     <p class="p_texto">Es un proyecto freelance realizado junto a Estefania Ávila (UX). La billetera virtual surgió para solucionar problemas en la seguridad de las transacciones y una clara administración de los gastos. El proceso consistió en: hacer bechmarking, encuestas y entrevistas a usuarios random, analisis de los resultados, realizar un card sorting, organizar la información y crear el diagrama de flujos de la APP.</p>
                     <p class="p_texto">Utilizamos un tablero de Miro para hacer Brainstorming y Trello para organizar las tareas y paso a seguir para su progreso.</p>
                 </div>
             </div>
 
-            <div class="row mt-5 items-destacado">
-                <div class="col-12 col-md-5">
+            <div class="row items-destacado card_trabajo offset-md-1 col-md-10 mt-5">
+                <div class="col-12 col-md-4">
                     <div class="row">
-                        <div class="col-12 d-flex contenedor_imagenes">
+                        <div class="col-12 d-flex justify-content-center align-items-center contenedor_imagenes">
                             <img src="img/Logo_RadiosdelValle.png" class="logos-trabajos" alt="Radios del Valle">
                         </div>
                     </div>
                 </div>
-                <div class="col-12 col-md-7 pe-5">
-                    <p class="titulo_empresa">🇦🇷 Radios del Valle (radiosdelvalle.ar) (DISEÑADOR UX/UI)</p>
-                    <p class="items_habilidad"><B>Palabras claves:</B> FREELANCE / DISEÑO UXUI /  PROTOTIPOS  /  FIGMA  /  MÓVIL</p>
+                <div class="col-12 col-md-8 pe-5">
+                    <p class="titulo_empresa">Radios del Valle (radiosdelvalle.ar) (DISEÑADOR UX/UI)</p>
+                    <p class="p_pais">🇦🇷 Argentina</p>
+                    <p class="items_habilidad"><B>Keywords:</B> FREELANCE / DISEÑO UXUI /  PROTOTIPOS  /  FIGMA  /  MÓVIL</p>
                     <p class="p_texto">Fuí contratado por un desarrollador independiente que necesitaba actualizar la web. La versión anterior del sitio solo estaba optimizada para escritorio, y mi tarea no solo consistió en rediseñar el entorno conforme a las normativas de UXUI, sino en asegurar que fuera mobile y permitiera leer noticias. Inicialmente establecimos criterios y detalles sobre las funcionalidades, así como las nuevas incorporaciones. Posteriormente, procedí a diseñar en Figma y prototipar hasta presentarle el proyecto final.</p>
                 </div>
             </div>
 
-            <div class="row mt-5 items-destacado">
-                <div class="col-12 col-md-5">
+            <div class="row items-destacado card_trabajo offset-md-1 col-md-10 mt-5">
+                <div class="col-12 col-md-4">
                     <div class="row">
-                        <div class="col-12 d-flex contenedor_imagenes">
+                        <div class="col-12 d-flex justify-content-center align-items-center contenedor_imagenes">
                             <img src="img/laPaulina.png" class="imagenes" alt="">
                         </div>
                     </div>
                 </div>
-                <div class="col-12 col-md-7 pe-5">
-                    <p class="titulo_empresa">🇦🇷 Sistema de Gestión Comercial (UX/UI + Desarrollo)</p>
-                    <p class="items_habilidad"><B>Palabras claves:</B> DISEÑO UXUI  /  PROTOTIPOS  /  FIGMA  /  DIAGRAMA DE FLUJOS  /  USABILIDAD  /  ACCESIBILIDAD  /  HTML + CSS  /  JAVASCRIPT  /  FIREBASE  /  BASE DE DATOS</p>
+                <div class="col-12 col-md-8 pe-5">
+                    <p class="titulo_empresa">Sistema de Gestión Comercial (UX/UI + Desarrollo)</p>
+                    <p class="p_pais">🇦🇷 Argentina</p>
+                    <p class="items_habilidad"><B>Keywords:</B> DISEÑO UXUI  /  PROTOTIPOS  /  FIGMA  /  DIAGRAMA DE FLUJOS  /  USABILIDAD  /  ACCESIBILIDAD  /  HTML + CSS  /  JAVASCRIPT  /  FIREBASE  /  BASE DE DATOS</p>
                     <p class="p_texto">Diseñé en Figma y lo desarrollé en HTML, CSS, JavaScript y Firebase como base de datos. Se trata de una app web de gestión de ventas, control de stock, seguimiento de gastos y análisis económico del comercio. El objetivo era digitalizar y simplificar la información de venta del comercio. Con este sistema, se eliminara el uso del "cuadernito de ventas y gastos", mejorando así la experiencia de la Gerencia y del personal mediante la tecnología.</p>
                 </div>
             </div>
-
-
         </article>
     </section>
 
@@ -385,89 +389,73 @@
     <section class="container-fluid gris" id="cursoscertificaciones">
         <article class="container">
             <h2 class="titulo_categoria">Certificaciones (Ordenado por más reciente)</h2>
-            <div class="row mb-5">
-                <div class="col-12 col-md-3 alineacion">
-                    <a href="titulos/Educación IT - Diseño UX UI.pdf" target="_blank"><h3 class="subtitulo_categoria">Descargar Certificado</h3></a>
-                </div>
-                <div class="col-12 col-md-9">
-                    <h3 class="subtitulo_categoria">Educación IT - Diseño UX UI (Noviembre 2022)</h3>
-                    <p class="p_texto"></p>
+            <div class="container my-5">
+                <div class="row custom-row">
+                  <div class="col-md-3 custom-card">
+                    <div class="card">
+                      <div class="card-body">
+                        <h5 class="card-title">Diseño UXUI</h5>
+                        <p class="p_texto mb-0">Educación IT</p>
+                        <p class="p_texto mb-0">Noviembre 2022</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-3 custom-card">
+                    <div class="card">
+                      <div class="card-body">
+                        <h5 class="card-title">JavaScript</h5>
+                        <p class="p_texto mb-0">Fundación Telefónica</p>
+                        <p class="p_texto mb-0">Agosto 2022</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-3 custom-card">
+                    <div class="card">
+                      <div class="card-body">
+                        <h5 class="card-title">Marketing Digital 1 y 2 </h5>
+                        <p class="p_texto mb-0">Contenido de la tarjeta.</p>
+                        <p class="p_texto mb-0">Agosto 2022</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-3 custom-card">
+                    <div class="card">
+                      <div class="card-body">
+                        <h5 class="card-title">Contenido para Redes</h5>
+                        <p class="p_texto mb-0">Academia BA</p>
+                        <p class="p_texto mb-0">Agosto 2022</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>            
+                <div class="row custom-row">
+                  <div class="col-md-3 custom-card">
+                    <div class="card">
+                      <div class="card-body">
+                        <h5 class="card-title">Introducción a la Web</h5>
+                        <p class="p_texto mb-0">Educación IT</p>
+                        <p class="p_texto mb-0">Abril 2022</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-3 custom-card">
+                    <div class="card">
+                      <div class="card-body">
+                        <h5 class="card-title">Programación Front End</h5>
+                        <p class="p_texto mb-0">Argentina Programa</p>
+                        <p class="p_texto mb-0">Abril 2022</p>
+                      </div>
+                    </div>
+                  </div>
                 </div>
             </div>
-            <div class="row mb-5">
-                <div class="col-12 col-md-3 alineacion">
-                    <a href="titulos/Fundación Telefonica - JavaScript AR - Certificado (Agosto 2022).pdf" target="_blank"><h3 class="subtitulo_categoria">Descargar Certificado</h3></a>
-                </div>
-                <div class="col-12 col-md-9">
-                    <h3 class="subtitulo_categoria">Fundación Telefónica - JavaScript (Agosto 2022)</h3>
-                    <p class="p_texto"></p>
-                </div>
-            </div>
-            <div class="row mb-5">
-                <div class="col-12 col-md-3 alineacion">
-                    <a href="titulos/AcademiaBA - Marketing Digital 1 (Agosto 2022).pdf" target="_blank"><h3 class="subtitulo_categoria">Descargar Certificado 1</h3></a>
-                    <a href="titulos/AcademiaBA - Marketing Digital 2 (Agosto 2022).pdf" target="_blank"><h3 class="subtitulo_categoria">Descargar Certificado 2</h3></a>
-                </div>
-                <div class="col-12 col-md-9">
-                    <h3 class="subtitulo_categoria">Academia BA - Marketing Digital 1 y 2 (Agosto 2022)</h3>
-                    <p class="p_texto"></p>
-                </div>
-            </div>
-            <div class="row mb-5">
-                <div class="col-12 col-md-3 alineacion">
-                    <a href="titulos/AcademiaBA - Contenido para Redes Sociales (Agosto 2022).pdf" target="_blank"><h3 class="subtitulo_categoria">Descargar Certificado</h3></a>
-                </div>
-                <div class="col-12 col-md-9">
-                    <h3 class="subtitulo_categoria">Academia BA - Contenido para Redes Sociales (Agosto 2022)</h3>
-                    <p class="p_texto"></p>
-                </div>
-            </div>
-            <div class="row mb-5">
-                <div class="col-12 col-md-3 alineacion">
-                    <a href="titulos/Educación IT - Introducción al mundo web (Abril 2022).pdf" target="_blank"><h3 class="subtitulo_categoria">Descargar Certificado</h3></a>
-                </div>
-                <div class="col-12 col-md-9">
-                    <h3 class="subtitulo_categoria">Educación IT - Introducción al Mundo Web (Abril 2022)</h3>
-                    <p class="p_texto"></p>
-                </div>
-            </div>
-            <div class="row mb-5">
-                <div class="col-12 col-md-3 alineacion">
-                    <a href="titulos/Argentina Programa - Primera Etapa(Abril 2022).pdf" target="_blank"><h3 class="subtitulo_categoria">Descargar Certificado</h3></a>
-                </div>
-                <div class="col-12 col-md-9">
-                    <h3 class="subtitulo_categoria">Argentina Programa - Primera Etapa (Abril 2022)</h3>
-                    <p class="p_texto"></p>
-                </div>
             </div>
         </article>
     </section>
 
-    <!-- HOBBYS -->
-    <section class="container-fluid gris_claro" id="hobbys">
-        <h2 class="titulo_categoria">Hobbys, como parte del conocimiento.</h2>
-        <article class="container">
-            <div class="row">
-                <div class="col-12 col-md-6">
-                    <div class="row">
-                        <h3 class="subtitulo_categoria">Viajes en fotografías.</h3>
-                        <p class="p_texto">Uno de mis hobbys favoritos es viajar, siempre por Argentina recorriendo los distintos paisajes y culturas del País. Contemplar la naturaleza y sacar fotografías es parte de la gran aventura que luego las posteo en mi instagram de <a href="https://www.instagram.com/postalviajeraargentina/" target="_blank">Postal Viajera Argentina</a>. Encuentro mucha paz e inspiración en estos viajes que me permiten crear historias y tomar reflexiones que luego las escribo.</p>
-                        <img src="img/la_fotografia.jpg" class="hobbys" alt="">
-                    </div>
-                </div>
-                <div class="col-12 col-md-6">
-                    <div class="row">
-                        <h3 class="subtitulo_categoria">La escritura.</h3>
-                        <p class="p_texto">Desde pequeño me gustaba escribir cuentos cortos, pero hace poco años retomé esta actividad hasta que pasó a ser parte de mi día y mi vida. Ya cuento con un libro finalizado (aún no publicado) y dos más en proceso que espero en el 2024 poder finalizarlos y publicarlos en formato impreso. Me destaco por poseer una buena dicción, lectura e interpretación de las situaciones.</p>
-                        <img src="img/la_escritura.jpg" class="hobbys" alt="">
-                    </div>
-                </div>
-            </div>
-        </article>
+    <section class="footer">
+
     </section>
-
-
-
 </main>
 <script src="js/bootstrap.bundle.min.js"></script>
 </body>
