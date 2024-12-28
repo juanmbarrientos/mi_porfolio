@@ -1,82 +1,81 @@
- @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&display=swap');
 
-*{
+* {
     margin: 0;
     padding: 0;
     font-family: 'Nunito', sans-serif;
     color: #262626;
 }
 
-.main-general{
-    padding:0 !important;
+.main-general {
+    padding: 0 !important;
 }
 
-a{
+a {
     text-decoration: none !important;
 }
 
-.navbar{
+.navbar {
     background-color: #F3AF44;
 }
 
-.card_trabajo{
-    background-color: #f0f0f0;
-    border-radius: 16px;
-    padding: 16px;
-}
-
-.navbar a{
+.navbar a {
     color: white;
     font-size: 18px;
     font-weight: bold;
 }
 
-.presentacion{
+.card_trabajo {
+    background-color: #f0f0f0;
+    border-radius: 16px;
+    padding: 16px;
+}
+
+.presentacion {
     margin-top: 55px;
     background-color: #ffffff;
     height: auto;
     padding: 50px;
 }
 
-.perfil{
+.perfil {
     height: 330px;
     width: 330px;
     border-radius: 50%;
     border: 6px solid white;
     background-size: 100% 100%; 
     background-repeat: no-repeat;  
-    background-image:url("../img/Perfil_LIND.jpg");
+    background-image: url("../img/Perfil_LIND.jpg");
 }
 
-.titulo_categoria{
+.titulo_categoria {
     text-align: center;
     font-weight: 800;
     font-size: 26px;
     margin-bottom: 20px;
 }
 
-.subtitulo_categoria{
+.subtitulo_categoria {
     font-weight: 700;
     font-size: 20px;
     margin-bottom: 20px;
 }
 
-.p_texto{
+.p_texto, .p_pais {
     font-size: 16px;
 }
 
-.p_pais{
-    font-size: 16px;
+.p_pais {
     margin-bottom: 4px;
 }
 
-.titulo_empresa{
+.titulo_empresa {
     font-size: 18px;
     font-weight: 700;
     margin-bottom: 4px;
 }
 
-.items_habilidad{
+.items_habilidad {
     font-size: 12px;
     font-weight: 600;
     background-color: #e8e8e8;
@@ -85,65 +84,58 @@ a{
     margin-bottom: 8px;
 }
 
-.redes{
-    background-color:#FF9500 ;
+.redes, .gris, .gris_claro, .blanco {
     height: auto;
-    padding: 10px;
+    padding: 30px 20px;
+}
+
+.redes {
+    background-color: #FF9500;
     display: flex;
     text-align: center;
-
 }
 
-.gris{
+.gris {
     background-color: #e8efef;
-    height: auto;
-    padding: 30px 20px;
-
 }
 
-.gris_claro{
+.gris_claro {
     background-color: #fafafa;
-    height: auto;
-    padding: 30px 20px;
 }
 
-.blanco{
+.blanco {
     background-color: #ffffff;
-    height: auto;
-    padding: 30px 20px;
 }
 
-.regular_24_300{
+.regular_24_300 {
     font-size: 24px;
     font-weight: 300;
 }
 
-.bold_32_600{
+.bold_32_600 {
     font-size: 32px;
     font-weight: 600;
 }
 
-.bold_40_700{
+.bold_40_700 {
     font-size: 40px;
     font-weight: 700;
     margin: 0;
 }
 
-.btn_redes{
+.btn_redes {
     background-color: #F3AF44;
     color: white;
     padding: 10px 24px;
     border-radius: 100px;
-    display: flex;
-    display: inline;
     font-weight: 500;
 }
 
-.icons{
+.icons {
     color: white;
 }
 
-.btn_redes:hover{
+.btn_redes:hover {
     background-color: #e49c29;
 }
 
@@ -151,124 +143,170 @@ a{
     margin-left: 15px;
     margin-right: 15px;
 }
-  
+
 .custom-card {
     margin-bottom: 20px;
 }
 
-.card{
+.card {
     border-radius: 8px !important;
     background-color: #ffffff !important;
     border: none !important;
 }
 
-.imagenes{
+.imagenes {
     height: 240px;
     border-radius: 16px;
 }
 
-.logos-trabajos{
+.logos-trabajos {
     width: 200px;
 }
 
-.items-destacado{
+.items-destacado {
     display: flex;
     align-items: center;
 }
 
-.hobbys{
-    height: 300px;
+.card_titulos {
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
 }
 
-.contenedor_iconos{
+.card_titulos:hover {
+    transform: scale(1.05);
+}
+
+.modal {
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+}
+
+.modal-content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    position: relative;
+    width: 80%;
+    max-width: 640px;
+    text-align: center;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.modal-content img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 24px;
+    font-weight: bold;
+    cursor: pointer;
+    color: #333;
+    z-index: 10000;
+}
+
+.close:hover {
+    color: #900;
+}
+
+.contenedor_iconos {
     text-align: center;
 }
 
-.iconos{
+.iconos {
     height: 60px;
 }
 
-.img-iconos{
+.img-iconos {
     width: 30px;
     margin: 0 20px;
 }
 
-.software{
+.software {
     font-size: 14px;
     font-weight: 600;
 }
 
-.p_texto_titulo{
+.p_texto_titulo {
     text-align: center;
     font-size: 18px;
-    background-color:#faeccc;
+    background-color: #faeccc;
     padding: 4px 0;
 }
 
-.contenedor_perfil{
+.contenedor_perfil {
     display: flex;
     justify-content: start;
 }
 
-.contenedor_imagenes{
+.contenedor_imagenes {
     display: flex;
     justify-content: end;
 }
 
-.alineacion{
+.alineacion {
     text-align: center;
 }
 
-.mas_proyectos{
+.mas_proyectos {
     margin-top: 24px !important;
     background-color: #e8efef;
     padding: 16px;
 }
 
-.footer{
+.footer {
     height: 160px;
     background-color: #262626;
 }
 
-@media (min-width:396px) and (max-width:991px){
-    .contenedor_perfil, .contenedor_imagenes{
+@media (min-width: 396px) and (max-width: 991px) {
+    .contenedor_perfil, .contenedor_imagenes {
         display: flex;
         justify-content: center;
     }
 
-    .contenedor_imagenes{
+    .contenedor_imagenes {
         margin-bottom: 16px;
     }
 
-    .hobbys{
+    .hobbys {
         margin-bottom: 30px;
     }
 
-    .subtitulo_categoria{
+    .subtitulo_categoria {
         margin-bottom: 5px;
     }
 
-    .p_texto{
+    .p_texto {
         margin-bottom: 5px;
-        font-size: 18px ;
+        font-size: 18px !important;
     }
 
-    .mas_proyectos{
+    .mas_proyectos {
         margin-top: 24px !important;
     }
 
     .presentacion .row {
         display: flex;
         flex-direction: column;
-      }
-    
-      .presentacion .col-md-6 {
+    }
+
+    .presentacion .col-md-6 {
         order: 2;
-      }
-    
-      .presentacion .col-md-5 {
+    }
+
+    .presentacion .col-md-5 {
         order: 1;
         margin-bottom: 16px;
-      }
+    }
 }
-
